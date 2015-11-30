@@ -1,5 +1,5 @@
 # Plan-Your-Travel
-An IOS Project to help the commuters of Singapore to plan their travel using public transport system.
+An IOS Project to help the commuters to plan their travel using public transport system.
 
 This app gets the arrival time of any public transport commuter and gives the best travel option by informing when the user should start by latest to reach the destination along with the journey steps and a mapview.
 
