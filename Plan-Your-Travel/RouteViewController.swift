@@ -35,10 +35,10 @@ class RouteViewController: UIViewController{
         print(source)
         var url:String
         if(source == "myL"){
-            url = "https://maps.googleapis.com/maps/api/directions/json?origin=\(mylocationCoordinates)&destination=\(destination)&arrival_time=\(reachingTime)&mode=transit&traffic_model=optimistic&transit_routing_preference=less_walking&key=AIzaSyDQ131YZE9jSdwT5cLu6CTLW9ol0W1YxNM"
+            url = "https://maps.googleapis.com/maps/api/directions/json?origin=\(mylocationCoordinates)&destination=\(destination)&arrival_time=\(reachingTime)&mode=transit&traffic_model=optimistic&transit_routing_preference=less_walking&key=YOUR_DIRECTION_SERVER_KEY"
         }
         else{
-            url = "https://maps.googleapis.com/maps/api/directions/json?origin=\(source)&destination=\(destination)&arrival_time=\(reachingTime)&mode=transit&traffic_model=optimistic&transit_routing_preference=less_walking&key=AIzaSyDQ131YZE9jSdwT5cLu6CTLW9ol0W1YxNM"
+            url = "https://maps.googleapis.com/maps/api/directions/json?origin=\(source)&destination=\(destination)&arrival_time=\(reachingTime)&mode=transit&traffic_model=optimistic&transit_routing_preference=less_walking&key=YOUR_DIRECTION_SERVER_KEY"
         }
         
         print(url)
