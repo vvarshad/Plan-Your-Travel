@@ -1,10 +1,4 @@
-//
-//  AppDelegate.swift
-//  Plan-Your-Travel
-//
-//  Created by Sathish on 12/11/15.
-//  Copyright © 2015 Sathish. All rights reserved.
-//
+
 
 import UIKit
 
@@ -12,10 +6,11 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+     let googleMapsApiKey = "AIzaSyAsBdxUP2OSGMz0mn1wZf1DiHUM5QvlYFo"
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        GMSServices.provideAPIKey(googleMapsApiKey)
         return true
     }
 

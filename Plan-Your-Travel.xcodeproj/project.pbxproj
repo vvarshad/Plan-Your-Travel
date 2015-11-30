@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC95EEDF69E4A7833FC5E5BB /* Pods_Plan_Your_Travel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F87C12332DD5201A02DF932 /* Pods_Plan_Your_Travel.framework */; };
+		B82BE85F1C04470800909DD3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B82BE85E1C04470800909DD3 /* CoreLocation.framework */; };
+		B82BE8631C04496F00909DD3 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82BE8621C04496F00909DD3 /* MapViewController.swift */; };
+		B8558BA01C06A946009E776A /* Plan-Your-Travel-Bridging-Header.m in Sources */ = {isa = PBXBuildFile; fileRef = B8558B9F1C06A946009E776A /* Plan-Your-Travel-Bridging-Header.m */; };
+		B8558BA21C06F090009E776A /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8558BA11C06F090009E776A /* SwiftyJSON.framework */; };
 		B8C1E43F1BF47A3C00999AA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C1E43E1BF47A3C00999AA9 /* AppDelegate.swift */; };
 		B8C1E4411BF47A3C00999AA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C1E4401BF47A3C00999AA9 /* ViewController.swift */; };
 		B8C1E4441BF47A3C00999AA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8C1E4421BF47A3C00999AA9 /* Main.storyboard */; };
@@ -14,6 +19,8 @@
 		B8C1E4491BF47A3C00999AA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8C1E4471BF47A3C00999AA9 /* LaunchScreen.storyboard */; };
 		B8C1E4541BF47A3C00999AA9 /* Plan_Your_TravelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C1E4531BF47A3C00999AA9 /* Plan_Your_TravelTests.swift */; };
 		B8C1E45F1BF47A3C00999AA9 /* Plan_Your_TravelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C1E45E1BF47A3C00999AA9 /* Plan_Your_TravelUITests.swift */; };
+		B8C755FB1C0992740086E4E6 /* train PYT bg.PNG in Resources */ = {isa = PBXBuildFile; fileRef = B8C755FA1C0992740086E4E6 /* train PYT bg.PNG */; };
+		B8C755FD1C0994EA0086E4E6 /* RouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C755FC1C0994EA0086E4E6 /* RouteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		76779E8497E847C86DB06281 /* Pods-Plan-Your-Travel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plan-Your-Travel.release.xcconfig"; path = "Pods/Target Support Files/Pods-Plan-Your-Travel/Pods-Plan-Your-Travel.release.xcconfig"; sourceTree = "<group>"; };
+		9F87C12332DD5201A02DF932 /* Pods_Plan_Your_Travel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Plan_Your_Travel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B82BE85E1C04470800909DD3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B82BE8601C04471000909DD3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B82BE8621C04496F00909DD3 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		B8558B9E1C06A945009E776A /* Plan-Your-Travel-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Plan-Your-Travel-Bridging-Header.h"; sourceTree = "<group>"; };
+		B8558B9F1C06A946009E776A /* Plan-Your-Travel-Bridging-Header.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Plan-Your-Travel-Bridging-Header.m"; sourceTree = "<group>"; };
+		B8558BA11C06F090009E776A /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "Pods/../build/Debug-iphoneos/SwiftyJSON.framework"; sourceTree = "<group>"; };
 		B8C1E43B1BF47A3C00999AA9 /* Plan-Your-Travel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plan-Your-Travel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8C1E43E1BF47A3C00999AA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8C1E4401BF47A3C00999AA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +62,9 @@
 		B8C1E45A1BF47A3C00999AA9 /* Plan-Your-TravelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Plan-Your-TravelUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8C1E45E1BF47A3C00999AA9 /* Plan_Your_TravelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plan_Your_TravelUITests.swift; sourceTree = "<group>"; };
 		B8C1E4601BF47A3C00999AA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8C755FA1C0992740086E4E6 /* train PYT bg.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "train PYT bg.PNG"; sourceTree = "<group>"; };
+		B8C755FC1C0994EA0086E4E6 /* RouteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteViewController.swift; sourceTree = "<group>"; };
+		CD03061BDFEECCC73D2186E0 /* Pods-Plan-Your-Travel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plan-Your-Travel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Plan-Your-Travel/Pods-Plan-Your-Travel.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8558BA21C06F090009E776A /* SwiftyJSON.framework in Frameworks */,
+				B82BE85F1C04470800909DD3 /* CoreLocation.framework in Frameworks */,
+				AC95EEDF69E4A7833FC5E5BB /* Pods_Plan_Your_Travel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +95,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20DA34D5A196E0F11600EAC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8558BA11C06F090009E776A /* SwiftyJSON.framework */,
+				9F87C12332DD5201A02DF932 /* Pods_Plan_Your_Travel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6ABB9782C822C3988E0EC9DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD03061BDFEECCC73D2186E0 /* Pods-Plan-Your-Travel.debug.xcconfig */,
+				76779E8497E847C86DB06281 /* Pods-Plan-Your-Travel.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B8C1E4321BF47A3C00999AA9 = {
 			isa = PBXGroup;
 			children = (
+				B82BE8601C04471000909DD3 /* MapKit.framework */,
+				B82BE85E1C04470800909DD3 /* CoreLocation.framework */,
 				B8C1E43D1BF47A3C00999AA9 /* Plan-Your-Travel */,
 				B8C1E4521BF47A3C00999AA9 /* Plan-Your-TravelTests */,
 				B8C1E45D1BF47A3C00999AA9 /* Plan-Your-TravelUITests */,
 				B8C1E43C1BF47A3C00999AA9 /* Products */,
+				6ABB9782C822C3988E0EC9DE /* Pods */,
+				20DA34D5A196E0F11600EAC3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,8 +144,13 @@
 				B8C1E4401BF47A3C00999AA9 /* ViewController.swift */,
 				B8C1E4421BF47A3C00999AA9 /* Main.storyboard */,
 				B8C1E4451BF47A3C00999AA9 /* Assets.xcassets */,
+				B8C755FA1C0992740086E4E6 /* train PYT bg.PNG */,
 				B8C1E4471BF47A3C00999AA9 /* LaunchScreen.storyboard */,
 				B8C1E44A1BF47A3C00999AA9 /* Info.plist */,
+				B82BE8621C04496F00909DD3 /* MapViewController.swift */,
+				B8558B9F1C06A946009E776A /* Plan-Your-Travel-Bridging-Header.m */,
+				B8558B9E1C06A945009E776A /* Plan-Your-Travel-Bridging-Header.h */,
+				B8C755FC1C0994EA0086E4E6 /* RouteViewController.swift */,
 			);
 			path = "Plan-Your-Travel";
 			sourceTree = "<group>";
@@ -132,9 +180,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8C1E4631BF47A3C00999AA9 /* Build configuration list for PBXNativeTarget "Plan-Your-Travel" */;
 			buildPhases = (
+				1711E7B0FFA583B67E00D66D /* Check Pods Manifest.lock */,
 				B8C1E4371BF47A3C00999AA9 /* Sources */,
 				B8C1E4381BF47A3C00999AA9 /* Frameworks */,
 				B8C1E4391BF47A3C00999AA9 /* Resources */,
+				770770E3320264D207F23E07 /* Embed Pods Frameworks */,
+				E869271625738B3344759C7B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +244,7 @@
 				TargetAttributes = {
 					B8C1E43A1BF47A3C00999AA9 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = HA8EJ7UW84;
 					};
 					B8C1E44E1BF47A3C00999AA9 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -232,6 +284,7 @@
 				B8C1E4491BF47A3C00999AA9 /* LaunchScreen.storyboard in Resources */,
 				B8C1E4461BF47A3C00999AA9 /* Assets.xcassets in Resources */,
 				B8C1E4441BF47A3C00999AA9 /* Main.storyboard in Resources */,
+				B8C755FB1C0992740086E4E6 /* train PYT bg.PNG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,12 +304,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1711E7B0FFA583B67E00D66D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		770770E3320264D207F23E07 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Plan-Your-Travel/Pods-Plan-Your-Travel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E869271625738B3344759C7B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Plan-Your-Travel/Pods-Plan-Your-Travel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B8C1E4371BF47A3C00999AA9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8558BA01C06A946009E776A /* Plan-Your-Travel-Bridging-Header.m in Sources */,
 				B8C1E4411BF47A3C00999AA9 /* ViewController.swift in Sources */,
+				B82BE8631C04496F00909DD3 /* MapViewController.swift in Sources */,
+				B8C755FD1C0994EA0086E4E6 /* RouteViewController.swift in Sources */,
 				B8C1E43F1BF47A3C00999AA9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,23 +499,44 @@
 		};
 		B8C1E4641BF47A3C00999AA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD03061BDFEECCC73D2186E0 /* Pods-Plan-Your-Travel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = "Plan-Your-Travel/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "sg.edu.nus.iss.wlad.Plan-Your-Travel";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Plan-Your-Travel/Plan-Your-Travel-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		B8C1E4651BF47A3C00999AA9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76779E8497E847C86DB06281 /* Pods-Plan-Your-Travel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = "Plan-Your-Travel/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "sg.edu.nus.iss.wlad.Plan-Your-Travel";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Plan-Your-Travel/Plan-Your-Travel-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -482,6 +607,7 @@
 				B8C1E4651BF47A3C00999AA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8C1E4661BF47A3C00999AA9 /* Build configuration list for PBXNativeTarget "Plan-Your-TravelTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +616,7 @@
 				B8C1E4681BF47A3C00999AA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8C1E4691BF47A3C00999AA9 /* Build configuration list for PBXNativeTarget "Plan-Your-TravelUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +625,7 @@
 				B8C1E46B1BF47A3C00999AA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
