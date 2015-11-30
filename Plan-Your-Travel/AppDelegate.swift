@@ -6,7 +6,7 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-     let googleMapsApiKey = "AIzaSyAsBdxUP2OSGMz0mn1wZf1DiHUM5QvlYFo"
+     let googleMapsApiKey = "YOUR_MAP_SDK_IOS_KEY"
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
